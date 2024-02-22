@@ -1,0 +1,1 @@
+**NOTE:** This code may take a minimum of 45 minutes to train when using Count Vectorizer as we are dealing with a dataset from neural netwroks instead we can import tfidf vectorizer for quick execution

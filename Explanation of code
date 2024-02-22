@@ -1,0 +1,14 @@
+This code is for text emotion detection using a machine learning model. Here's a simplified explanation:
+
+necessary libraries.
+Load the dataset 'Text_Emotion.csv and convert all text to lowercase
+Define to fix punctuation and contractions in the text. . Clean the text by removing unnecessary characters, URLs, and HTML tags.
+Remove common English stopwords from the text.
+Check for missing and duplicate values in the dataset and remove them.
+Prepare the data by separating text and emotion labels.
+Vectorize the text data using CountVectorizer.
+Split the data into training and testing sets.
+Create an MLPClassifier model for emotion detection.
+Train the model using the training data.
+Make predictions using the testing data.
+Evaluate the model using confusion matrix, classification report, and accuracy score.
